@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="menu">
+                <nav>
+                    <img src="picture/renz-logo2.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="h-text">
+                    <p>Web Developer/Designer</p>
+                    <h1>HI, I'm <span>Renzy</span><br>Bastes From Philippines</h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------about----------------->
+        <div id="about">
+            <div class="first-c">
+                <div class="row">
+                    <div class="about-cl-1">
+                        <img src="picture/user1.jpg">
+                    </div>
+                    <div class="about-cl-2">
+                        <h1 class="sub-ttl">About Me</h1>
+                        <p>I'am Renzy Bastes a versatile professional in the digital realm, 
+                            adeptly bridging the worlds of web development and web design. 
+                            As a web developer, My leverages a comprehensive skill set encompassing 
+                            HTML, CSS, JavaScript, and backend technologies to transform creative concepts 
+                            into functional and seamless online experiences. My meticulous problem-solving 
+                            and commitment to staying at the forefront of web development trends ensure that 
+                            the websites I created not only look visually appealing but also perform 
+                            flawlessly across diverse devices and browsers. My dedication to quality and 
+                            strong communication skills make you a collaborative team player who can 
+                            bring clients' visions to life.
+                        </p>
+
+                        <div class="tab-ttls">
+                            <p class="tab-lnks active-lnk" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-lnks" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-lnks" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tb" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/Game interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Game Development</span><br>Building game Concept and Design</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Have Experience in HTML and CSS</li>
+                                <li><span>2020 - 2022</span><br>Learning JavaScript</li>
+                                <li><span>2018 - 2020</span><br>Learning HTML and CSS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - 2027</span><br>N/A</li>
+                                <li><span>2022 - 2023</span><br>BSIT from STI sta. Mesa College</li>
+                                <li><span>2019 - 2021</span><br>San Rafael National Trade School</li>
+                                <li><span>2018 - 2019</span><br>St. Catherine De Novaliches School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------Services--------------------------->
+        <div id="services">
+            <div class="first-c">
+                <h1 class="sub-ttl">My Services</h1>
+                <div class="services-lst">
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Web Design</h2>
+                        <p> I'm Renzy Bastes a skilled and creative web designer who specializes in 
+                            crafting visually captivating and user-centric online experiences. 
+                            I possesses a unique blend of artistic flair and technical expertise, 
+                            that make me a sought-after designer in the digital realm. 
+                            With a passion for aesthetics and an eye for detail, I dedicated myself 
+                            turning your web design vision into a stunning reality.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p> I'am proficient web developer who possesses a unique blend of 
+                            technical expertise and creative problem-solving skills. With a passion for 
+                            crafting functional and engaging online experiences, I excels in the art of coding, 
+                            bringing web designs to life and transforming concepts into reality.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Game Developer</h2>
+                        <p> I'm passionate and skilled game developer who possesses a unique blend of 
+                            creativity and technical expertise in the world of video games. 
+                            With a deep love for gaming and a commitment to pushing the boundaries of 
+                            interactive entertainment, I dedicated myself to the 
+                            art and science of game development.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------Portfolio----------------->
+        <div id="portfolio">
+            <div class="first-c">
+                <h1 class="sub-ttl">Social Media Account</h1>
+                <div class="work-lst">
+                    <div class="work">
+                        <img src="picture/facebook.png" class="img-sz">
+                        <div class="layer">
+                            <h3>Facebook Account</h3>
+                            <p>Click this link to go in my Facebook Profile</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="picture/githubLogo1.png" class="img-sz">
+                        <div class="layer">
+                            <h3>Git-Hub Account</h3>
+                            <p>Click this link to go in my Git-Hub Profile</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="picture/linkInlogo.png" class="img-sz">
+                        <div class="layer">
+                            <h3>LinkIn Account</h3>
+                            <p>Click this link to go in my LinkIn Profile</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="bttn">See more</a>
+            </div>
+        </div>
+        <!------------Contact-------------->
+        <div id="contact">
+            <div class="first-c">
+                <div class="row">
+                    <div class="contact-lft">
+                        <h1 class="subs-ttl">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>renzysteven1011@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>09922606269</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="picture/Programming.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-rght">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn1 btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#x24B8; Kaiden.</p>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
